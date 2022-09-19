@@ -1,0 +1,2 @@
+geometry_msgs/Pose2D pickup_loc
+geometry_msgs/Pose2D dropoff_loc

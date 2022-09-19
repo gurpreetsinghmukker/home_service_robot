@@ -9,5 +9,8 @@ xterm -e " cd ../../; source devel/setup.bash; roslaunch my_robot world.launch "
 sleep 5
 xterm -hold -e " cd ../../; source devel/setup.bash; roslaunch my_robot amcl.launch " &
 sleep 5
+xterm -hold -e " cd ../../; source devel/setup.bash; roslaunch my_robot add_markers.launch " &
+sleep 5
+xterm -hold -e " cd ../../; source devel/setup.bash; roslaunch my_robot pick_objects.launch " &
+sleep 5
 xterm -e " rosrun rviz rviz"
-

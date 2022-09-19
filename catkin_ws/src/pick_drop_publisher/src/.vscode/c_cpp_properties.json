@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/include/**",
+        "/opt/ros/kinetic/include/**",
+        "/home/gurpreet/workspace/home_service_robot/catkin_ws/src/add_markers/include/**",
+        "/opt/ros/kinetic/share/depthimage_to_laserscan/include/**",
+        "/home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher/include/**",
+        "/home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_objects/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
