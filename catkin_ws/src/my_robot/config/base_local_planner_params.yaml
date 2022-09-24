@@ -17,7 +17,7 @@ TrajectoryPlannerROS:
   vtheta_samples: 10.0
 
   pdist_scale: 4 #0.6
-  gdist_scale: 0.5 #0.8
+  gdist_scale: 0.2 #0.8
   occdist_scale: 0.03
 
   holonomic_robot: false
