@@ -34,7 +34,7 @@
 #include <cmath>
 
 visualization_msgs::Marker marker;
-
+visualization_msgs::Marker marker_drop;
 
 void check_odom_callback(const nav_msgs::Odometry &msg){
 
@@ -49,6 +49,7 @@ if(marker.action == visualization_msgs::Marker::ADD){
   ROS_INFO("x_diff: %0.3f, y_diff: %0.3f, z_diff: %0.3f", x_diff, y_diff, z_diff);
   if (x_diff < 0.2 && y_diff < 0.2 && z_diff < 0.2){
     marker.action = visualization_msgs::Marker::DELETE;
+    marker_drop.action = visualization_msgs::Marker::ADD;
   }
 }
 }
@@ -65,6 +66,7 @@ void pick_drop_loc_callback(const pick_drop_publisher::pick_drop& msg)
     marker.pose.orientation.z = 0.0;
     marker.pose.orientation.w = msg.pickup_loc.theta;
     marker.action = visualization_msgs::Marker::ADD;
+    marker_drop.action = visualization_msgs::Marker::DELETE;
     }
 
 int main( int argc, char** argv )
@@ -88,17 +90,25 @@ int main( int argc, char** argv )
   uint32_t shape = visualization_msgs::Marker::SPHERE;
 
   marker.action = visualization_msgs::Marker::DELETE;
+  marker.action = visualization_msgs::Marker::ADD;
   // Set the frame ID and timestamp.  See the TF tutorials for information on these.
   marker.header.frame_id = "/map";
   marker.header.stamp = ros::Time::now();
+  marker_drop.header.frame_id = "/map";
+  marker_drop.header.stamp = ros::Time::now();
 
   // Set the namespace and id for this marker.  This serves to create a unique ID
   // Any marker sent with the same namespace and id will overwrite the old one
   marker.ns = "basic_shapes";
   marker.id = 0;
+  
+  marker_drop.ns = "basic_shapes";
+  marker_drop.id = 1;
 
   // Set the marker type.  Initially this is CUBE, and cycles between that and SPHERE, ARROW, and CYLINDER
   marker.type = shape;
+  marker_drop.type = shape;
+
 
   // Set the marker action.  Options are ADD, DELETE, and new in ROS Indigo: 3 (DELETEALL)
 
@@ -106,14 +116,24 @@ int main( int argc, char** argv )
   marker.scale.x = 0.3;
   marker.scale.y = 0.3;
   marker.scale.z = 0.3;
+  
+  marker_drop.scale.x = 0.3;
+  marker_drop.scale.y = 0.3;
+  marker_drop.scale.z = 0.3;
 
   // Set the color -- be sure to set alpha to something non-zero!
   marker.color.r = 0.0f;
   marker.color.g = 1.0f;
   marker.color.b = 0.0f;
   marker.color.a = 1.0;
+  
+  marker_drop.color.r = 0.0f;
+  marker_drop.color.g = 1.0f;
+  marker_drop.color.b = 0.0f;
+  marker_drop.color.a = 1.0;
 
   marker.lifetime = ros::Duration();
+  marker_drop.lifetime = ros::Duration();
 
   // Publish the marker
   while (marker_pub.getNumSubscribers() < 1)
