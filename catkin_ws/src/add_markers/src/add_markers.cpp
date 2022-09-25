@@ -30,18 +30,26 @@
 #include <ros/ros.h>
 #include <visualization_msgs/Marker.h>
 #include <nav_msgs/Odometry.h>
+#include <geometry_msgs/PoseStamped.h>
+
 #include "pick_drop_publisher/pick_drop.h"
 #include <cmath>
 
 visualization_msgs::Marker marker;
 visualization_msgs::Marker marker_drop;
+float rover_x;
+float rover_y;
 
 void check_odom_callback(const nav_msgs::Odometry &msg){
 
   float x_diff = std::abs(msg.pose.pose.position.x - marker.pose.position.x);
   float y_diff = std::abs(msg.pose.pose.position.y - marker.pose.position.y);
   float z_diff = std::abs(msg.pose.pose.position.z - marker.pose.position.z);
-  // ROS_INFO("odom_x: %0.3f, marker_x: %0.3f, Difference: [%0.3f]", msg.pose.pose.position.x, marker.pose.position.x, msg.pose.pose.position.x-marker.pose.position.x);
+  float rover_x = msg.pose.pose.position.x;
+  float rover_y = msg.pose.pose.position.y;
+
+ // ROS_INFO("rover_x: %0.3f, rover_y: %0.3f", msg.pose.pose.position.x, msg.pose.pose.position.y);
+  //ROS_INFO("rover_x: %0.3f, rover_y: %0.3f", rover_x, rover_y);
   // ROS_INFO("Difference: [%0.3f]", std::abs(msg.pose.pose.position.x-marker.pose.position.x));
 
   
@@ -52,6 +60,17 @@ if(marker.action == visualization_msgs::Marker::ADD){
     marker_drop.action = visualization_msgs::Marker::ADD;
   }
 }
+
+if(marker_drop.action == visualization_msgs::Marker::ADD){
+      //ROS_INFO("Inside IF rover_x: %0.3f, rover_y: %0.3f", rover_x, rover_y);
+      //ROS_INFO("Inside IF rover_x: %0.3f, rover_y: %0.3f", marker_drop.pose.position.x, marker_drop.pose.position.y);
+      float x_diff = std::abs(rover_x - marker_drop.pose.position.x);
+      float y_diff = std::abs(rover_y - marker_drop.pose.position.y);
+      //ROS_INFO("DropOff Location = x_diff: %0.3f, y_diff: %0.3f", x_diff, y_diff);
+      if (x_diff < 0.2 && y_diff < 0.2){
+          marker_drop.action = visualization_msgs::Marker::DELETE;
+      }
+    }
 }
 
 void pick_drop_loc_callback(const pick_drop_publisher::pick_drop& msg)
@@ -65,9 +84,30 @@ void pick_drop_loc_callback(const pick_drop_publisher::pick_drop& msg)
     marker.pose.orientation.y = 0.0;
     marker.pose.orientation.z = 0.0;
     marker.pose.orientation.w = msg.pickup_loc.theta;
+
+    marker_drop.pose.position.x = msg.dropoff_loc.x;
+    marker_drop.pose.position.y = msg.dropoff_loc.y;
+    marker_drop.pose.position.z = 0;
+    marker_drop.pose.orientation.x = 0.0;
+    marker_drop.pose.orientation.y = 0.0;
+    marker_drop.pose.orientation.z = 0.0;
+    marker_drop.pose.orientation.w = msg.dropoff_loc.theta;
+
+
     marker.action = visualization_msgs::Marker::ADD;
     marker_drop.action = visualization_msgs::Marker::DELETE;
     }
+  
+void update_goal_location( const geometry_msgs::PoseStamped& msg)
+{
+  marker.pose.position.x = msg.pose.position.x;
+  marker.pose.position.y = msg.pose.position.y;
+  marker.pose.position.z = msg.pose.position.z;
+  marker.pose.orientation.x = msg.pose.orientation.x;
+  marker.pose.orientation.y = msg.pose.orientation.y;
+  marker.pose.orientation.z = msg.pose.orientation.z;
+  marker.pose.orientation.w = msg.pose.orientation.w;
+}
 
 int main( int argc, char** argv )
 {
@@ -80,6 +120,8 @@ int main( int argc, char** argv )
   ros::Rate r(1);
   ros::Subscriber pickup_loc = pickup_loc_subs.subscribe("/pick_drop_loc", 1000, &pick_drop_loc_callback);
   ros::Subscriber odom = get_odom.subscribe("/odom", 1000, &check_odom_callback);
+
+
   if(pickup_loc){
     ROS_INFO("Subscribed to Position topic");
   }
@@ -90,7 +132,7 @@ int main( int argc, char** argv )
   uint32_t shape = visualization_msgs::Marker::SPHERE;
 
   marker.action = visualization_msgs::Marker::DELETE;
-  marker.action = visualization_msgs::Marker::ADD;
+  marker_drop.action = visualization_msgs::Marker::DELETE;
   // Set the frame ID and timestamp.  See the TF tutorials for information on these.
   marker.header.frame_id = "/map";
   marker.header.stamp = ros::Time::now();
@@ -148,6 +190,7 @@ int main( int argc, char** argv )
 
   while(ros::ok()){
     marker_pub.publish(marker);
+    marker_pub.publish(marker_drop);
     ros::spinOnce();
     r.sleep();
   }

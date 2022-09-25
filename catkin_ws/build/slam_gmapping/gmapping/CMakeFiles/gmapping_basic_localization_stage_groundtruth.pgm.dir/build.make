@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/build
+CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build
 
 # Utility rule file for gmapping_basic_localization_stage_groundtruth.pgm.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/build
 include slam_gmapping/gmapping/CMakeFiles/gmapping_basic_localization_stage_groundtruth.pgm.dir/progress.make
 
 slam_gmapping/gmapping/CMakeFiles/gmapping_basic_localization_stage_groundtruth.pgm:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/gmapping/basic_localization_stage_groundtruth.pgm /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/gmapping/test/basic_localization_stage_groundtruth.pgm abf208f721053915145215b18c98f9b3 --ignore-error
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/gmapping/basic_localization_stage_groundtruth.pgm /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/gmapping/test/basic_localization_stage_groundtruth.pgm abf208f721053915145215b18c98f9b3 --ignore-error
 
 gmapping_basic_localization_stage_groundtruth.pgm: slam_gmapping/gmapping/CMakeFiles/gmapping_basic_localization_stage_groundtruth.pgm
 gmapping_basic_localization_stage_groundtruth.pgm: slam_gmapping/gmapping/CMakeFiles/gmapping_basic_localization_stage_groundtruth.pgm.dir/build.make
@@ -67,10 +67,10 @@ slam_gmapping/gmapping/CMakeFiles/gmapping_basic_localization_stage_groundtruth.
 .PHONY : slam_gmapping/gmapping/CMakeFiles/gmapping_basic_localization_stage_groundtruth.pgm.dir/build
 
 slam_gmapping/gmapping/CMakeFiles/gmapping_basic_localization_stage_groundtruth.pgm.dir/clean:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/gmapping_basic_localization_stage_groundtruth.pgm.dir/cmake_clean.cmake
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/gmapping_basic_localization_stage_groundtruth.pgm.dir/cmake_clean.cmake
 .PHONY : slam_gmapping/gmapping/CMakeFiles/gmapping_basic_localization_stage_groundtruth.pgm.dir/clean
 
 slam_gmapping/gmapping/CMakeFiles/gmapping_basic_localization_stage_groundtruth.pgm.dir/depend:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gurpreet/workspace/home_service_robot/catkin_ws/src /home/gurpreet/workspace/home_service_robot/catkin_ws/src/slam_gmapping/gmapping /home/gurpreet/workspace/home_service_robot/catkin_ws/build /home/gurpreet/workspace/home_service_robot/catkin_ws/build/slam_gmapping/gmapping /home/gurpreet/workspace/home_service_robot/catkin_ws/build/slam_gmapping/gmapping/CMakeFiles/gmapping_basic_localization_stage_groundtruth.pgm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/slam_gmapping/gmapping /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/slam_gmapping/gmapping /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/slam_gmapping/gmapping/CMakeFiles/gmapping_basic_localization_stage_groundtruth.pgm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : slam_gmapping/gmapping/CMakeFiles/gmapping_basic_localization_stage_groundtruth.pgm.dir/depend
 

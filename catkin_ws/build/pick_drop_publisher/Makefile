@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/build
+CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gurpreet/workspace/home_service_robot/catkin_ws/build/CMakeFiles /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher/CMakeFiles/progress.marks
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gurpreet/workspace/home_service_robot/catkin_ws/build/CMakeFiles 0
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/CMakeFiles /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher/CMakeFiles/progress.marks
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/clean
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/preinstall
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/preinstall
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_genpy.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_genpy.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_genpy.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_genpy.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ pick_drop_publisher_genpy: pick_drop_publisher/CMakeFiles/pick_drop_publisher_ge
 
 # fast build rule for target.
 pick_drop_publisher_genpy/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_genpy.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_genpy.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_genpy.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_genpy.dir/build
 .PHONY : pick_drop_publisher_genpy/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_gennodejs.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_gennodejs.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_gennodejs.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ pick_drop_publisher_gennodejs: pick_drop_publisher/CMakeFiles/pick_drop_publishe
 
 # fast build rule for target.
 pick_drop_publisher_gennodejs/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_gennodejs.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_gennodejs.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_gennodejs.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_gennodejs.dir/build
 .PHONY : pick_drop_publisher_gennodejs/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_genlisp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_genlisp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_genlisp.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_genlisp.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ pick_drop_publisher_genlisp: pick_drop_publisher/CMakeFiles/pick_drop_publisher_
 
 # fast build rule for target.
 pick_drop_publisher_genlisp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_genlisp.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_genlisp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_genlisp.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_genlisp.dir/build
 .PHONY : pick_drop_publisher_genlisp/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_lisp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_lisp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_lisp.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ pick_drop_publisher_generate_messages_lisp: pick_drop_publisher/CMakeFiles/pick_
 
 # fast build rule for target.
 pick_drop_publisher_generate_messages_lisp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_lisp.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_lisp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_lisp.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_lisp.dir/build
 .PHONY : pick_drop_publisher_generate_messages_lisp/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ geometry_msgs_generate_messages_py: pick_drop_publisher/CMakeFiles/geometry_msgs
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ geometry_msgs_generate_messages_cpp: pick_drop_publisher/CMakeFiles/geometry_msg
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_cpp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_cpp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_cpp.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ pick_drop_publisher_generate_messages_cpp: pick_drop_publisher/CMakeFiles/pick_d
 
 # fast build rule for target.
 pick_drop_publisher_generate_messages_cpp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_cpp.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_cpp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_cpp.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_cpp.dir/build
 .PHONY : pick_drop_publisher_generate_messages_cpp/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ roscpp_generate_messages_cpp: pick_drop_publisher/CMakeFiles/roscpp_generate_mes
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make pick_drop_publisher/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make pick_drop_publisher/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ geometry_msgs_generate_messages_eus: pick_drop_publisher/CMakeFiles/geometry_msg
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ std_msgs_generate_messages_py: pick_drop_publisher/CMakeFiles/std_msgs_generate_
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_py.dir/build.make pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_py.dir/build.make pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ std_msgs_generate_messages_lisp: pick_drop_publisher/CMakeFiles/std_msgs_generat
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ geometry_msgs_generate_messages_lisp: pick_drop_publisher/CMakeFiles/geometry_ms
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_gencpp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_gencpp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_gencpp.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_gencpp.dir/rule
 
 # Convenience name for target.
@@ -357,12 +357,12 @@ pick_drop_publisher_gencpp: pick_drop_publisher/CMakeFiles/pick_drop_publisher_g
 
 # fast build rule for target.
 pick_drop_publisher_gencpp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_gencpp.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_gencpp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_gencpp.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_gencpp.dir/build
 .PHONY : pick_drop_publisher_gencpp/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -372,12 +372,12 @@ rosgraph_msgs_generate_messages_nodejs: pick_drop_publisher/CMakeFiles/rosgraph_
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ _pick_drop_publisher_generate_messages_check_deps_pick_drop: pick_drop_publisher
 
 # fast build rule for target.
 _pick_drop_publisher_generate_messages_check_deps_pick_drop/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/build.make pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/build.make pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/build
 .PHONY : _pick_drop_publisher_generate_messages_check_deps_pick_drop/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -402,12 +402,12 @@ std_msgs_generate_messages_nodejs: pick_drop_publisher/CMakeFiles/std_msgs_gener
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -417,12 +417,12 @@ std_msgs_generate_messages_eus: pick_drop_publisher/CMakeFiles/std_msgs_generate
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -432,12 +432,12 @@ roscpp_generate_messages_lisp: pick_drop_publisher/CMakeFiles/roscpp_generate_me
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make pick_drop_publisher/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make pick_drop_publisher/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/rule
 
 # Convenience name for target.
@@ -447,12 +447,12 @@ pick_drop_publisher: pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/rule
 
 # fast build rule for target.
 pick_drop_publisher/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/build
 .PHONY : pick_drop_publisher/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_geneus.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_geneus.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_geneus.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_geneus.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ pick_drop_publisher_geneus: pick_drop_publisher/CMakeFiles/pick_drop_publisher_g
 
 # fast build rule for target.
 pick_drop_publisher_geneus/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_geneus.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_geneus.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_geneus.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_geneus.dir/build
 .PHONY : pick_drop_publisher_geneus/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -477,12 +477,12 @@ geometry_msgs_generate_messages_nodejs: pick_drop_publisher/CMakeFiles/geometry_
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make pick_drop_publisher/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -492,12 +492,12 @@ roscpp_generate_messages_eus: pick_drop_publisher/CMakeFiles/roscpp_generate_mes
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/roscpp_generate_messages_eus.dir/build.make pick_drop_publisher/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/roscpp_generate_messages_eus.dir/build.make pick_drop_publisher/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -507,12 +507,12 @@ pick_drop_publisher_generate_messages_py: pick_drop_publisher/CMakeFiles/pick_dr
 
 # fast build rule for target.
 pick_drop_publisher_generate_messages_py/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/build
 .PHONY : pick_drop_publisher_generate_messages_py/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_nodejs.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_nodejs.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_nodejs.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -522,12 +522,12 @@ pick_drop_publisher_generate_messages_nodejs: pick_drop_publisher/CMakeFiles/pic
 
 # fast build rule for target.
 pick_drop_publisher_generate_messages_nodejs/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_nodejs.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_nodejs.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_nodejs.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_nodejs.dir/build
 .PHONY : pick_drop_publisher_generate_messages_nodejs/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -537,12 +537,12 @@ pick_drop_publisher_generate_messages_eus: pick_drop_publisher/CMakeFiles/pick_d
 
 # fast build rule for target.
 pick_drop_publisher_generate_messages_eus/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/build
 .PHONY : pick_drop_publisher_generate_messages_eus/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -552,12 +552,12 @@ roscpp_generate_messages_py: pick_drop_publisher/CMakeFiles/roscpp_generate_mess
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/roscpp_generate_messages_py.dir/build.make pick_drop_publisher/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/roscpp_generate_messages_py.dir/build.make pick_drop_publisher/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -567,12 +567,12 @@ rosgraph_msgs_generate_messages_eus: pick_drop_publisher/CMakeFiles/rosgraph_msg
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -582,12 +582,12 @@ std_msgs_generate_messages_cpp: pick_drop_publisher/CMakeFiles/std_msgs_generate
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make pick_drop_publisher/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -597,12 +597,12 @@ rosgraph_msgs_generate_messages_cpp: pick_drop_publisher/CMakeFiles/rosgraph_msg
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -612,12 +612,12 @@ rosgraph_msgs_generate_messages_py: pick_drop_publisher/CMakeFiles/rosgraph_msgs
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -627,12 +627,12 @@ roscpp_generate_messages_nodejs: pick_drop_publisher/CMakeFiles/roscpp_generate_
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make pick_drop_publisher/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make pick_drop_publisher/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -642,12 +642,12 @@ rosgraph_msgs_generate_messages_lisp: pick_drop_publisher/CMakeFiles/rosgraph_ms
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages.dir/rule
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -657,7 +657,7 @@ pick_drop_publisher_generate_messages: pick_drop_publisher/CMakeFiles/pick_drop_
 
 # fast build rule for target.
 pick_drop_publisher_generate_messages/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages.dir/build
 .PHONY : pick_drop_publisher_generate_messages/fast
 
 src/pick_drop_publisher.o: src/pick_drop_publisher.cpp.o
@@ -666,7 +666,7 @@ src/pick_drop_publisher.o: src/pick_drop_publisher.cpp.o
 
 # target to build an object file
 src/pick_drop_publisher.cpp.o:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/src/pick_drop_publisher.cpp.o
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/src/pick_drop_publisher.cpp.o
 .PHONY : src/pick_drop_publisher.cpp.o
 
 src/pick_drop_publisher.i: src/pick_drop_publisher.cpp.i
@@ -675,7 +675,7 @@ src/pick_drop_publisher.i: src/pick_drop_publisher.cpp.i
 
 # target to preprocess a source file
 src/pick_drop_publisher.cpp.i:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/src/pick_drop_publisher.cpp.i
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/src/pick_drop_publisher.cpp.i
 .PHONY : src/pick_drop_publisher.cpp.i
 
 src/pick_drop_publisher.s: src/pick_drop_publisher.cpp.s
@@ -684,7 +684,7 @@ src/pick_drop_publisher.s: src/pick_drop_publisher.cpp.s
 
 # target to generate assembly for a file
 src/pick_drop_publisher.cpp.s:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/src/pick_drop_publisher.cpp.s
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/build.make pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/src/pick_drop_publisher.cpp.s
 .PHONY : src/pick_drop_publisher.cpp.s
 
 # Help Target
@@ -747,6 +747,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

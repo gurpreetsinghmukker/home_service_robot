@@ -67,14 +67,14 @@ set(add_markers_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(add_markers_SOURCE_PREFIX /home/gurpreet/workspace/home_service_robot/catkin_ws/src/add_markers)
-  set(add_markers_DEVEL_PREFIX /home/gurpreet/workspace/home_service_robot/catkin_ws/devel)
+  set(add_markers_SOURCE_PREFIX /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/add_markers)
+  set(add_markers_DEVEL_PREFIX /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel)
   set(add_markers_INSTALL_PREFIX "")
   set(add_markers_PREFIX ${add_markers_DEVEL_PREFIX})
 else()
   set(add_markers_SOURCE_PREFIX "")
   set(add_markers_DEVEL_PREFIX "")
-  set(add_markers_INSTALL_PREFIX /home/gurpreet/workspace/home_service_robot/catkin_ws/install)
+  set(add_markers_INSTALL_PREFIX /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/install)
   set(add_markers_PREFIX ${add_markers_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/gurpreet/workspace/home_service_robot/catkin_ws/install/lib;/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/install/lib;/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib;/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/add_markers.dir/src/add_markers.cpp.o"
-  "/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/add_markers/add_markers.pdb"
-  "/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/add_markers/add_markers"
+  "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/add_markers/add_markers.pdb"
+  "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/add_markers/add_markers"
 )
 
 # Per-language clean rules from dependency scanning.

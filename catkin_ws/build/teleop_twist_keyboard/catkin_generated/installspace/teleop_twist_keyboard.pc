@@ -1,4 +1,4 @@
-prefix=/home/gurpreet/workspace/home_service_robot/catkin_ws/install
+prefix=/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/install
 
 Name: teleop_twist_keyboard
 Description: Description of teleop_twist_keyboard

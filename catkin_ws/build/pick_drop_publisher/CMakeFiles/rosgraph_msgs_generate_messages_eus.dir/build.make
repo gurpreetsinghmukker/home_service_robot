@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/build
+CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build: ro
 .PHONY : pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 
 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gurpreet/workspace/home_service_robot/catkin_ws/src /home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher /home/gurpreet/workspace/home_service_robot/catkin_ws/build /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pick_drop_publisher/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher
+# Install script for directory: /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gurpreet/workspace/home_service_robot/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,53 +33,53 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pick_drop_publisher/msg" TYPE FILE FILES "/home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher/msg/pick_drop.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pick_drop_publisher/msg" TYPE FILE FILES "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher/msg/pick_drop.msg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pick_drop_publisher/cmake" TYPE FILE FILES "/home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher/catkin_generated/installspace/pick_drop_publisher-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pick_drop_publisher/cmake" TYPE FILE FILES "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher/catkin_generated/installspace/pick_drop_publisher-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/include/pick_drop_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/include/pick_drop_publisher")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/common-lisp/ros/pick_drop_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/common-lisp/ros/pick_drop_publisher")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/gennodejs/ros/pick_drop_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/gennodejs/ros/pick_drop_publisher")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher/catkin_generated/installspace/pick_drop_publisher.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher/catkin_generated/installspace/pick_drop_publisher.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pick_drop_publisher/cmake" TYPE FILE FILES "/home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher/catkin_generated/installspace/pick_drop_publisher-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pick_drop_publisher/cmake" TYPE FILE FILES "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher/catkin_generated/installspace/pick_drop_publisher-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pick_drop_publisher/cmake" TYPE FILE FILES
-    "/home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher/catkin_generated/installspace/pick_drop_publisherConfig.cmake"
-    "/home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher/catkin_generated/installspace/pick_drop_publisherConfig-version.cmake"
+    "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher/catkin_generated/installspace/pick_drop_publisherConfig.cmake"
+    "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher/catkin_generated/installspace/pick_drop_publisherConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pick_drop_publisher" TYPE FILE FILES "/home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pick_drop_publisher" TYPE FILE FILES "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher/package.xml")
 endif()
 

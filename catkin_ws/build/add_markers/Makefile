@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/build
+CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gurpreet/workspace/home_service_robot/catkin_ws/build/CMakeFiles /home/gurpreet/workspace/home_service_robot/catkin_ws/build/add_markers/CMakeFiles/progress.marks
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gurpreet/workspace/home_service_robot/catkin_ws/build/CMakeFiles 0
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/CMakeFiles /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/add_markers/CMakeFiles/progress.marks
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/clean
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/preinstall
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/preinstall
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 add_markers/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 .PHONY : add_markers/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ nav_msgs_generate_messages_eus: add_markers/CMakeFiles/nav_msgs_generate_message
 
 # fast build rule for target.
 nav_msgs_generate_messages_eus/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make add_markers/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make add_markers/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
 .PHONY : nav_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 .PHONY : add_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ visualization_msgs_generate_messages_py: add_markers/CMakeFiles/visualization_ms
 
 # fast build rule for target.
 visualization_msgs_generate_messages_py/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make add_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make add_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
 .PHONY : visualization_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 .PHONY : add_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ visualization_msgs_generate_messages_cpp: add_markers/CMakeFiles/visualization_m
 
 # fast build rule for target.
 visualization_msgs_generate_messages_cpp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make add_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make add_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
 .PHONY : visualization_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 .PHONY : add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ nav_msgs_generate_messages_lisp: add_markers/CMakeFiles/nav_msgs_generate_messag
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
 .PHONY : add_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ visualization_msgs_generate_messages_eus: add_markers/CMakeFiles/visualization_m
 
 # fast build rule for target.
 visualization_msgs_generate_messages_eus/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make add_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make add_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
 .PHONY : visualization_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : add_markers/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ actionlib_msgs_generate_messages_lisp: add_markers/CMakeFiles/actionlib_msgs_gen
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make add_markers/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make add_markers/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 .PHONY : add_markers/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ nav_msgs_generate_messages_nodejs: add_markers/CMakeFiles/nav_msgs_generate_mess
 
 # fast build rule for target.
 nav_msgs_generate_messages_nodejs/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make add_markers/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make add_markers/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 .PHONY : add_markers/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ actionlib_msgs_generate_messages_py: add_markers/CMakeFiles/actionlib_msgs_gener
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make add_markers/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make add_markers/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/add_markers.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/add_markers.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/add_markers.dir/rule
 .PHONY : add_markers/CMakeFiles/add_markers.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ add_markers: add_markers/CMakeFiles/add_markers.dir/rule
 
 # fast build rule for target.
 add_markers/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/add_markers.dir/build.make add_markers/CMakeFiles/add_markers.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/add_markers.dir/build.make add_markers/CMakeFiles/add_markers.dir/build
 .PHONY : add_markers/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 .PHONY : add_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ visualization_msgs_generate_messages_lisp: add_markers/CMakeFiles/visualization_
 
 # fast build rule for target.
 visualization_msgs_generate_messages_lisp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make add_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make add_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
 .PHONY : visualization_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
 .PHONY : add_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ visualization_msgs_generate_messages_nodejs: add_markers/CMakeFiles/visualizatio
 
 # fast build rule for target.
 visualization_msgs_generate_messages_nodejs/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make add_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make add_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
 .PHONY : visualization_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 .PHONY : add_markers/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ actionlib_msgs_generate_messages_eus: add_markers/CMakeFiles/actionlib_msgs_gene
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_eus/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make add_markers/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make add_markers/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : add_markers/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -357,12 +357,12 @@ nav_msgs_generate_messages_cpp: add_markers/CMakeFiles/nav_msgs_generate_message
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make add_markers/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make add_markers/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 .PHONY : add_markers/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -372,12 +372,12 @@ actionlib_msgs_generate_messages_cpp: add_markers/CMakeFiles/actionlib_msgs_gene
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make add_markers/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make add_markers/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 .PHONY : add_markers/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ actionlib_msgs_generate_messages_nodejs: add_markers/CMakeFiles/actionlib_msgs_g
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_nodejs/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make add_markers/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make add_markers/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 add_markers/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 add_markers/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 .PHONY : add_markers/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -402,7 +402,7 @@ nav_msgs_generate_messages_py: add_markers/CMakeFiles/nav_msgs_generate_messages
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make add_markers/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make add_markers/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
 
 src/add_markers.o: src/add_markers.cpp.o
@@ -411,7 +411,7 @@ src/add_markers.o: src/add_markers.cpp.o
 
 # target to build an object file
 src/add_markers.cpp.o:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/add_markers.dir/build.make add_markers/CMakeFiles/add_markers.dir/src/add_markers.cpp.o
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/add_markers.dir/build.make add_markers/CMakeFiles/add_markers.dir/src/add_markers.cpp.o
 .PHONY : src/add_markers.cpp.o
 
 src/add_markers.i: src/add_markers.cpp.i
@@ -420,7 +420,7 @@ src/add_markers.i: src/add_markers.cpp.i
 
 # target to preprocess a source file
 src/add_markers.cpp.i:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/add_markers.dir/build.make add_markers/CMakeFiles/add_markers.dir/src/add_markers.cpp.i
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/add_markers.dir/build.make add_markers/CMakeFiles/add_markers.dir/src/add_markers.cpp.i
 .PHONY : src/add_markers.cpp.i
 
 src/add_markers.s: src/add_markers.cpp.s
@@ -429,7 +429,7 @@ src/add_markers.s: src/add_markers.cpp.s
 
 # target to generate assembly for a file
 src/add_markers.cpp.s:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/add_markers.dir/build.make add_markers/CMakeFiles/add_markers.dir/src/add_markers.cpp.s
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(MAKE) -f add_markers/CMakeFiles/add_markers.dir/build.make add_markers/CMakeFiles/add_markers.dir/src/add_markers.cpp.s
 .PHONY : src/add_markers.cpp.s
 
 # Help Target
@@ -475,6 +475,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

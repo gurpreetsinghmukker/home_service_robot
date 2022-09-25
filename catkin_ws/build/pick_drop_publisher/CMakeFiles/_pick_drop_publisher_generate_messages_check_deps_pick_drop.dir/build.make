@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/build
+CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build
 
 # Utility rule file for _pick_drop_publisher_generate_messages_check_deps_pick_drop.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/build
 include pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/progress.make
 
 pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pick_drop_publisher /home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher/msg/pick_drop.msg geometry_msgs/Pose2D
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pick_drop_publisher /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher/msg/pick_drop.msg geometry_msgs/Pose2D
 
 _pick_drop_publisher_generate_messages_check_deps_pick_drop: pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop
 _pick_drop_publisher_generate_messages_check_deps_pick_drop: pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/build.make
@@ -67,10 +67,10 @@ pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps
 .PHONY : pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/build
 
 pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/clean:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher && $(CMAKE_COMMAND) -P CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/cmake_clean.cmake
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher && $(CMAKE_COMMAND) -P CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/cmake_clean.cmake
 .PHONY : pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/clean
 
 pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/depend:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gurpreet/workspace/home_service_robot/catkin_ws/src /home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher /home/gurpreet/workspace/home_service_robot/catkin_ws/build /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pick_drop_publisher/CMakeFiles/_pick_drop_publisher_generate_messages_check_deps_pick_drop.dir/depend
 

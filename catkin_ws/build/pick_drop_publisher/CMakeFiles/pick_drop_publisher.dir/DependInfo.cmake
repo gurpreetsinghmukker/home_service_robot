@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher/src/pick_drop_publisher.cpp" "/home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/src/pick_drop_publisher.cpp.o"
+  "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher/src/pick_drop_publisher.cpp" "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher/CMakeFiles/pick_drop_publisher.dir/src/pick_drop_publisher.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/include"
+  "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

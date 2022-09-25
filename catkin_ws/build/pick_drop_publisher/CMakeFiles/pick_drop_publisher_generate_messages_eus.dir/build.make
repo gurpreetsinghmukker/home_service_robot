@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/build
+CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build
 
 # Utility rule file for pick_drop_publisher_generate_messages_eus.
 
 # Include the progress variables for this target.
 include pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/progress.make
 
-pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus: /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/msg/pick_drop.l
-pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus: /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/manifest.l
+pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus: /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/msg/pick_drop.l
+pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus: /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/manifest.l
 
 
-/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/msg/pick_drop.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/msg/pick_drop.l: /home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher/msg/pick_drop.msg
-/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/msg/pick_drop.l: /opt/ros/kinetic/share/geometry_msgs/msg/Pose2D.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gurpreet/workspace/home_service_robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from pick_drop_publisher/pick_drop.msg"
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher/msg/pick_drop.msg -Ipick_drop_publisher:/home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p pick_drop_publisher -o /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/msg
+/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/msg/pick_drop.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/msg/pick_drop.l: /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher/msg/pick_drop.msg
+/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/msg/pick_drop.l: /opt/ros/kinetic/share/geometry_msgs/msg/Pose2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from pick_drop_publisher/pick_drop.msg"
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher/msg/pick_drop.msg -Ipick_drop_publisher:/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p pick_drop_publisher -o /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/msg
 
-/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gurpreet/workspace/home_service_robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for pick_drop_publisher"
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher pick_drop_publisher geometry_msgs std_msgs
+/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for pick_drop_publisher"
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher pick_drop_publisher geometry_msgs std_msgs
 
 pick_drop_publisher_generate_messages_eus: pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus
-pick_drop_publisher_generate_messages_eus: /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/msg/pick_drop.l
-pick_drop_publisher_generate_messages_eus: /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/manifest.l
+pick_drop_publisher_generate_messages_eus: /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/msg/pick_drop.l
+pick_drop_publisher_generate_messages_eus: /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/share/roseus/ros/pick_drop_publisher/manifest.l
 pick_drop_publisher_generate_messages_eus: pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/build.make
 
 .PHONY : pick_drop_publisher_generate_messages_eus
@@ -80,10 +80,10 @@ pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/bui
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/build
 
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/clean:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher && $(CMAKE_COMMAND) -P CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher && $(CMAKE_COMMAND) -P CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/clean
 
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/depend:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gurpreet/workspace/home_service_robot/catkin_ws/src /home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher /home/gurpreet/workspace/home_service_robot/catkin_ws/build /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_eus.dir/depend
 

@@ -13,4 +13,6 @@ xterm -hold -e " cd ../../; source devel/setup.bash; roslaunch my_robot add_mark
 sleep 5
 xterm -hold -e " cd ../../; source devel/setup.bash; roslaunch my_robot pick_objects.launch " &
 sleep 5
-xterm -e " rosrun rviz rviz"
+xterm -e " rosrun rviz rviz" &
+sleep 5
+xterm -hold -e " cd ../../; source devel/setup.bash;  rostopic pub -1 /pick_drop_loc pick_drop_publisher/pick_drop '{pickup_loc: {x: 1.5, y: -1.5, theta: -0.1}, dropoff_loc: {x: -2.7, y: 1.9, theta: -0.1}}' "

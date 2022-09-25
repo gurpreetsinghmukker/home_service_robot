@@ -67,14 +67,14 @@ set(pick_drop_publisher_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(pick_drop_publisher_SOURCE_PREFIX /home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher)
-  set(pick_drop_publisher_DEVEL_PREFIX /home/gurpreet/workspace/home_service_robot/catkin_ws/devel)
+  set(pick_drop_publisher_SOURCE_PREFIX /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher)
+  set(pick_drop_publisher_DEVEL_PREFIX /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel)
   set(pick_drop_publisher_INSTALL_PREFIX "")
   set(pick_drop_publisher_PREFIX ${pick_drop_publisher_DEVEL_PREFIX})
 else()
   set(pick_drop_publisher_SOURCE_PREFIX "")
   set(pick_drop_publisher_DEVEL_PREFIX "")
-  set(pick_drop_publisher_INSTALL_PREFIX /home/gurpreet/workspace/home_service_robot/catkin_ws/install)
+  set(pick_drop_publisher_INSTALL_PREFIX /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/install)
   set(pick_drop_publisher_PREFIX ${pick_drop_publisher_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(pick_drop_publisher_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/include " STREQUAL " ")
+if(NOT "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/include " STREQUAL " ")
   set(pick_drop_publisher_INCLUDE_DIRS "")
-  set(_include_dirs "/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/include")
+  set(_include_dirs "/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/include " ST
         message(FATAL_ERROR "Project 'pick_drop_publisher' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'pick_drop_publisher' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'pick_drop_publisher' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher/${idir}'.  ${_report}")
     endif()
     _list_append_unique(pick_drop_publisher_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib;/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib;/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib;/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -43,34 +43,34 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot/catkin_ws/build
+CMAKE_BINARY_DIR = /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build
 
 # Utility rule file for pick_drop_publisher_generate_messages_py.
 
 # Include the progress variables for this target.
 include pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/progress.make
 
-pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py: /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/_pick_drop.py
-pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py: /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/__init__.py
+pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py: /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/_pick_drop.py
+pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py: /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/__init__.py
 
 
-/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/_pick_drop.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/_pick_drop.py: /home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher/msg/pick_drop.msg
-/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/_pick_drop.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose2D.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gurpreet/workspace/home_service_robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG pick_drop_publisher/pick_drop"
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher/msg/pick_drop.msg -Ipick_drop_publisher:/home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p pick_drop_publisher -o /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg
+/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/_pick_drop.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/_pick_drop.py: /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher/msg/pick_drop.msg
+/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/_pick_drop.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG pick_drop_publisher/pick_drop"
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher/msg/pick_drop.msg -Ipick_drop_publisher:/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p pick_drop_publisher -o /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg
 
-/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/__init__.py: /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/_pick_drop.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gurpreet/workspace/home_service_robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for pick_drop_publisher"
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg --initpy
+/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/__init__.py: /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/_pick_drop.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for pick_drop_publisher"
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg --initpy
 
 pick_drop_publisher_generate_messages_py: pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py
-pick_drop_publisher_generate_messages_py: /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/_pick_drop.py
-pick_drop_publisher_generate_messages_py: /home/gurpreet/workspace/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/__init__.py
+pick_drop_publisher_generate_messages_py: /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/_pick_drop.py
+pick_drop_publisher_generate_messages_py: /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/devel/lib/python2.7/dist-packages/pick_drop_publisher/msg/__init__.py
 pick_drop_publisher_generate_messages_py: pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/build.make
 
 .PHONY : pick_drop_publisher_generate_messages_py
@@ -81,10 +81,10 @@ pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/buil
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/build
 
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/clean:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher && $(CMAKE_COMMAND) -P CMakeFiles/pick_drop_publisher_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher && $(CMAKE_COMMAND) -P CMakeFiles/pick_drop_publisher_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/clean
 
 pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/depend:
-	cd /home/gurpreet/workspace/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gurpreet/workspace/home_service_robot/catkin_ws/src /home/gurpreet/workspace/home_service_robot/catkin_ws/src/pick_drop_publisher /home/gurpreet/workspace/home_service_robot/catkin_ws/build /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher /home/gurpreet/workspace/home_service_robot/catkin_ws/build/pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/src/pick_drop_publisher /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher /home/gurpreet/workspace/home_service_robot_copy/home_service_robot/catkin_ws/build/pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pick_drop_publisher/CMakeFiles/pick_drop_publisher_generate_messages_py.dir/depend
 
